@@ -65,7 +65,7 @@
 
 {{ if not .entries }}
     {{ if .showOnlyUnreadEntries }}
-        <p class="alert">{{ t "alert.no_unread_entry" }}</p>
+        <p class="alert">{{ t "alert.no_unread_entry" }} <a href="/feeds/refresh">Refresh feeds.</a></p>
     {{ else }}
         <p class="alert">{{ t "alert.no_feed_entry" }}</p>
     {{ end }}

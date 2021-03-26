@@ -29,7 +29,7 @@
 </section>
 
 {{ if not .entries }}
-    <p class="alert">{{ t "alert.no_unread_entry" }}</p>
+    <p class="alert">{{ t "alert.no_unread_entry" }} <a href="/feeds/refresh">Refresh feeds.</a></p>
 {{ else }}
     <div class="items hide-read-items">
         {{ range .entries }}
