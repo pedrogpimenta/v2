@@ -89,8 +89,8 @@
     --current-item-box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
 
     --entry-header-border-color: #333;
-    --entry-header-title-link-color: #bbb;
-    --entry-content-color: #999;
+    --entry-header-title-link-color: #fff;
+    --entry-content-color: #ddd;
     --entry-content-code-color: #fff;
     --entry-content-code-background: #555;
     --entry-content-code-border-color: #888;
