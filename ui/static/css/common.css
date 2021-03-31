@@ -104,7 +104,8 @@ a:hover {
 
 .page-header h1 {
     font-weight: 500;
-    border-bottom: 1px dotted var(--page-header-title-border-color);
+    /* border-bottom: 1px dotted var(--page-header-title-border-color); */
+    color: var(--page-header-title-color);
 }
 
 .page-header h1 a {
@@ -126,6 +127,10 @@ a:hover {
 .page-footer li {
     list-style-type: circle;
     line-height: 1.8em;
+}
+
+.page-header li a {
+    color: var(--page-header-title-color);
 }
 
 /* Logo */
@@ -721,7 +726,7 @@ a.button {
 }
 
 .item-meta-info {
-    font-size: 0.85em;
+    /* font-size: 0.85em; */
 }
 
 .item-meta-info li:after {
