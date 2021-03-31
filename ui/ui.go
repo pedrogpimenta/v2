@@ -157,4 +157,9 @@ func Serve(router *mux.Router, store *storage.Storage, pool *worker.Pool) {
 		w.Header().Set("Content-Type", "text/plain")
 		w.Write([]byte("User-agent: *\nDisallow: /"))
 	}).Name("robots")
+
+	router.HandleFunc("/wakemydyno.txt", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/plain")
+		w.Write([]byte("wakemydyno.txt"))
+	}).Name("wakemydyno")
 }
