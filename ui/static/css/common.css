@@ -679,6 +679,15 @@ a.button {
     box-shadow: var(--current-item-box-shadow);
 }
 
+.item-title {
+    display: block;
+    font-size: 1.2em;
+}
+
+.item-title img {
+    display: none;
+}
+
 .item-title a {
     text-decoration: none;
     font-weight: var(--item-title-link-font-weight);
