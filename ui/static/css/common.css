@@ -673,8 +673,8 @@ a.button {
 /* List view */
 .item {
     /* border: 1px dotted var(--item-border-color); */
-    margin-bottom: 20px;
-    padding: var(--item-padding);
+    margin-bottom: 24px;
+    /* padding: var(--item-padding); */
     overflow: hidden;
 }
 
