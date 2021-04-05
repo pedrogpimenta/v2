@@ -1054,3 +1054,7 @@ details.entry-enclosures {
     text-decoration: none;
     font-size: 1.2em;
 }
+
+template {
+    display: none;
+}
